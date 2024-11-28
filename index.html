@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express Server Interaction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Express Server Interaction</h1>
+        <form id="saveForm">
+            <h2>Save Data</h2>
+            <textarea id="saveData" placeholder="Enter JSON data to save..." required></textarea>
+            <button type="submit">Save</button>
+        </form>
+        <form id="appendForm">
+            <h2>Append Data</h2>
+            <textarea id="appendData" placeholder="Enter JSON data to append..." required></textarea>
+            <button type="submit">Append</button>
+        </form>
+        <button id="clearButton" class="clear-btn">Clear Data</button>
+        <div id="response" class="response"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
